@@ -15,6 +15,12 @@ header .jumbotron div {
 }
 header h1 {
 	font-size:64px;
+	text-shadow:1px 1px black;
+}
+
+.row{
+	margin-left: 0;
+	margin-right:0;
 }
 .navbar {
 	position:fixed;
