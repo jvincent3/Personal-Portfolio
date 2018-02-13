@@ -1,0 +1,32 @@
+header {
+	color:white;
+}
+header .jumbotron {
+	height:500px;
+	background: url(../img/header-img.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+header .jumbotron div {
+	margin-top:140px;
+
+}
+header h1 {
+	font-size:64px;
+}
+.navbar {
+	position:fixed;
+	top:0;
+	width:100%;
+
+}
+.navbar a{
+	color:white;
+	
+}
+.navbar a:hover{
+	color:gray;
+}
+
