@@ -17,6 +17,24 @@ header h1 {
 	font-size:64px;
 	text-shadow:1px 1px black;
 }
+.project-showcase li {
+	padding-right: 0;
+	padding-left: 0;
+}
+.project-showcase li a {
+	background-size:cover;
+	display:block;
+	position:relative;
+	min-height:270px;
+	text-align:center;
+	transform:translateZ(0);
+}
+.project-showcase li a:before{
+	display:block;
+	content:"";
+	width:100%;
+	padding-top:62.5%;
+}
 
 .row{
 	margin-left: 0;
@@ -26,6 +44,7 @@ header h1 {
 	position:fixed;
 	top:0;
 	width:100%;
+	z-index:1;
 
 }
 .navbar a{
